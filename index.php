@@ -9,7 +9,7 @@
     <?php
     
     if(isset($_GET['x']) && isset($_GET['y']) && isset($_GET['operacao'])){
-        if($_GET['operacao'] == "soma"){
+        if($_GET['operacao'] == "adicao"){
             echo "{$_GET['x']} + {$_GET['y']} = " . ($_GET['x'] + $_GET['y']);
         }
 
